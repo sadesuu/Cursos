@@ -22,7 +22,6 @@ const audioPlayer:AudioPlayer = {
 }
 }
 
-const song = 'mohamend ali'
 
 
 
@@ -30,10 +29,13 @@ const {song:anotherSong,songDuration:Duration,details} = audioPlayer;
 const {author} = details;
 
 
-console.log("Song: " + anotherSong)
-console.log("Author: " + author)
-console.log("Duration: " + Duration)
+// console.log("Song: " + anotherSong)
+// console.log("Author: " + author)
+// console.log("Duration: " + Duration)
 
+const [,,p3 = 'Not found']:string[] = ['Goku', 'Vegeta']
+
+console.log('Personaje 3: ', p3)
 
 
 
