@@ -1,27 +1,29 @@
+
+//Creacion de una clase llamada persona
 export class Person {
     // public name:string;
     // public address:string;
 
-
+    //Creo los atributos dentro del constructor.
     constructor(
         public name:string,
         public address:string = 'No address'
     ){}
 
-    // constructor(name:string,address:string){
-    //     this.name = name;
-    //     this.address = address;
-    // }
+ /*    constructor(name:string,address:string){
+        this.name = name;
+        this.address = address;
+    } */
 }
-// export class Hero extends Person{
-//     constructor(
-//         public alterEgo:string,
-//         public age: number,
-//         public realName: string
-//     ){
-//         super(realName, 'New York')
-//     }
-// }
+/* export class Hero extends Person{
+    constructor(
+        public alterEgo:string,
+        public age: number,
+        public realName: string
+    ){
+        super(realName, 'New York')
+    }
+} */
 
 export class Hero {
 

@@ -13,7 +13,12 @@ const passenger2:Passenger = {
 }
 
 const printChildren = (passenger:Passenger):number => {
+
+    //Optiona Chaining permite encadenar comprobaciones
+    
+    //Indicamos que si se encuentran hijos se diga el numero de hijos sino(||) diga 0.
     const howManyChildren = passenger.children?.length || 0
+    //Indicamos que siempre va ha encontrar hijos.
     const noNullOperator = passenger.children!.length
 
     console.log(passenger.name,howManyChildren)

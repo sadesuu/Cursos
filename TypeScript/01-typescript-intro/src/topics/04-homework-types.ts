@@ -1,5 +1,5 @@
 
-
+//Interfaz de super Heroe.
 interface SuperHero{
     name:string,
     age:number,
@@ -7,13 +7,14 @@ interface SuperHero{
     showAddress: () => string
 }
 
+//Interfaz de direccion.
 interface Address {
         street: string
         country:string
         city:string
 }
 
-
+//Interfaz de super heroe que contiene dentro la interfaz de direccion.
 const superHero: SuperHero = {
     name: 'Spiderman',
     age: 30,

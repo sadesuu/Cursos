@@ -1,3 +1,5 @@
+
+//COmo importar funciones externas.
 import { Product, taxCalculation } from './06-function-destructuring';
 
 const shoppingCart: Product[] = [

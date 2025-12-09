@@ -1,5 +1,5 @@
 
-
+//Tipo generico(T), se pone en la funcion entre <T>
 export function whatsMyType<T>( argument:T ): T{
     return argument;
 }

@@ -1,3 +1,5 @@
+
+//Decorador, son funciones que permiten implementar funcionalidades a demas funciones, por ejemplo el decorador 'module' en Angular.
 function classDecorator<T extends { new (...args:any[]):{} }>(
     constructor: T
 ){
@@ -8,7 +10,7 @@ function classDecorator<T extends { new (...args:any[]):{} }>(
     }
 }
 
-
+//Indica que esta funcion esta usando ese decorador.
 @classDecorator
 class SuperClass{
 

@@ -24,14 +24,14 @@ const audioPlayer:AudioPlayer = {
 
 
 
-
+//Se aplica la desestructuración de las interfaces para sacar atributos en concreto
 const {song:anotherSong,songDuration:Duration,details} = audioPlayer;
 const {author} = details;
 
 
-// console.log("Song: " + anotherSong)
-// console.log("Author: " + author)
-// console.log("Duration: " + Duration)
+console.log("Song: " + anotherSong)
+console.log("Author: " + author)
+console.log("Duration: " + Duration)
 
 const [,,p3 = 'Not found']:string[] = ['Goku', 'Vegeta']
 
